@@ -116,11 +116,23 @@
 
 @media (max-width: 400px) {
     .container {
-        height: 90vh;
+        height: 100vh;
         overflow: hidden;
     }
     .container .clock {
         width: 250px;
         height: 250px;
+    }
+    .container .clock b {
+        top: 60px;
+    }
+    .sec {
+        height: 100px;
+    }
+    .min {
+        height: 85px;
+    }
+    .hour {
+        height: 65px;
     }
 }
